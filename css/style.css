@@ -1,0 +1,168 @@
+.body{
+    background-color:antiquewhite;
+}
+
+.img{
+    background-color: aliceblue;
+}
+
+span{
+    color:black;
+}
+
+
+/* Custom CSS for navigation alignment */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add padding for better appearance */
+}
+
+.logo-name-container img {
+    width: 50px; /* Adjust as needed */
+}
+
+.nav .nav-item .nav-link {
+    color: black;
+}
+
+
+.navItems ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+   
+}
+
+.navItems li {
+    margin-left: 20px; /* Adjust as needed */
+    
+}
+
+.centered-section {
+    text-align: center;
+}
+
+.centered-section .card {
+    width: 100%; /* Set the width of the card to 100% */
+    max-width: none; /* Remove the max-width property */
+}
+
+
+/* Custom CSS to adjust spacing and display bullet circles in the Our Interviews section */
+.interview-paragraph {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.interview-list {
+    margin: 0;
+    padding-left: 20px; /* Adjust as needed */
+    list-style-type: disc; /* Display bullet circles */
+    text-align: left;
+}
+
+/* Custom CSS to center-align the bullet points in the Our Interviews section */
+.interview-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Custom CSS for animated sections */
+.animated-section {
+    opacity: 0; /* Set initial opacity to 0 */
+    transform: translateY(20px); /* Set initial vertical position */
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-left-to-right {
+    animation: slideInLeftToRight 1s ease-out;
+}
+
+@keyframes slideInLeftToRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Hover effect for sections */
+.jumbotron {
+    transition: transform 0.3s ease;
+}
+
+.jumbotron:hover {
+    transform: scale(1.05);
+}
+
+
+
+.text-center:hover {
+    background-color: rgb(251, 237, 190);
+}
+
+/* Custom CSS for the footer */
+.footer {
+    background-color: rgb(246, 238, 229);
+    padding: 20px;
+    margin-top: 20px; /* Add margin to create spacing between footer and sections above */
+    display: flex; /* Use flexbox to center-align the navigation links */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: row; /* Ensure the links are in a row */
+}
+
+.footer .nav-link {
+    color: white; /* or another light color that contrasts well */
+    margin: 0 10px; /* Add some horizontal spacing between the links */
+}
+
+/* Apply a common height to the research-related cards */
+.research-card {
+    height: 100%; /* You can adjust the value as needed */
+}
+
+
+.jumbotron.yellow-bg {
+    background-color:#C29B64; /* Your custom background color */
+    color: black; /* Set the text color to ensure visibility */
+}
+
+.yellow-bg .card {
+    background-color: #C29B64;/* Your custom background color */
+    border: none; /* Remove the default border if needed */
+}
+
+.yellow-bg .list-group-item {
+    background-color: #C29B64; /* Your custom background color */
+    color: black; /* Set the text color to contrast with the background */
+}
+
+.yellow-bg:hover {
+    transform: scale(1.05);
+}
+
+.research-card:hover
+{
+    transform: scale(1.05);
+}
