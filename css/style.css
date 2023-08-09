@@ -1,5 +1,5 @@
 .body{
-    background-color:antiquewhite;
+    background-color:rgb(10, 10, 9);
 }
 
 .img{
@@ -7,7 +7,7 @@
 }
 
 span{
-    color:black;
+    color:white;
 }
 
 
@@ -24,7 +24,7 @@ span{
 }
 
 .nav .nav-item .nav-link {
-    color: black;
+    color: white;
 }
 
 
@@ -123,7 +123,7 @@ span{
 
 /* Custom CSS for the footer */
 .footer {
-    background-color: rgb(246, 238, 229);
+    background-color: rgb(118, 116, 115);
     padding: 20px;
     margin-top: 20px; /* Add margin to create spacing between footer and sections above */
     display: flex; /* Use flexbox to center-align the navigation links */
@@ -144,17 +144,17 @@ span{
 
 
 .jumbotron.yellow-bg {
-    background-color:#C29B64; /* Your custom background color */
+    background-color:white; /* Your custom background color */
     color: black; /* Set the text color to ensure visibility */
 }
 
 .yellow-bg .card {
-    background-color: #C29B64;/* Your custom background color */
+    background-color: white;/* Your custom background color */
     border: none; /* Remove the default border if needed */
 }
 
 .yellow-bg .list-group-item {
-    background-color: #C29B64; /* Your custom background color */
+    background-color: white; /* Your custom background color */
     color: black; /* Set the text color to contrast with the background */
 }
 
